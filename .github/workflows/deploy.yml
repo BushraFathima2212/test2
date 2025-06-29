@@ -15,14 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
       - name: Upload static site
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3      # ✅ THIS IS THE CRUCIAL FIX
         with:
           path: .
 
