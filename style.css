@@ -1,60 +1,87 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
 
-#login-box, #admin-panel {
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-input, textarea, button {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
+    body {
+      background: #f0fff0;
+      color: #2e7d32;
+      line-height: 1.6;
+    }
 
-textarea {
-  resize: vertical;
-}
+    header {
+      background: #a5d6a7;
+      padding: 2rem;
+      text-align: center;
+    }
 
-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
 
-button:hover {
-  background-color: #0056b3;
-}
+    header p {
+      font-size: 1.2rem;
+    }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
+    .features, .pricing {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
 
-th {
-  background-color: #f2f2f2;
-}
+    .card {
+      background: #e8f5e9;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem;
+      flex: 1 1 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
 
-#login-status {
-  color: red;
-  text-align: center;
-}
+   
+
+    .leaf {
+      width: 50px;
+      animation: grow 2s infinite alternate;
+    }
+
+    @keyframes grow {
+      from { transform: scale(1); }
+      to { transform: scale(1.3); }
+    }
+
+    form {
+      background: #e8f5e9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.7rem;
+      border: 1px solid #81c784;
+      border-radius: 5px;
+    }
+
+    form button {
+      background: #66bb6a;
+      color: white;
+      border: none;
+      padding: 0.7rem 2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
