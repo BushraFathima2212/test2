@@ -6,8 +6,7 @@ A lightweight, responsive frontend web application that simulates a smart plant 
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the live site](https://your-github-username.github.io/plantpulse)  
-*(Replace the URL with your actual GitHub Pages link)*
+🔗 [Click here to view the live site](https://bushrafathima2212.github.io/test2/)
 
 ---
 
